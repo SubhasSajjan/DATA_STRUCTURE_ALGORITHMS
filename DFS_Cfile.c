@@ -1,6 +1,7 @@
-//DFS (depth first search) this algorithm is for traversal of adjecency matrix 
+//DFS (depth first search) this algorithm is for traversal of adjecency matrix of undirected graph
 //time complexity is O(v^2),v is number of vertex
 //it uses the stack data structure for storing the all adjecent non visited vertex  
+
 #include<stdio.h>
 int adj[20][20],visited[20];
 int st[20],tos=-1,n;
